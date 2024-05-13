@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+    background-color: rgb(43, 43, 65);
+    padding: 0;
+    
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:20% ;
+    margin-right: 20%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.nav-selection{
+    display: flex;
+    align-items: center;
+
+    
+    
+}
+.logo-avatar{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: rgb(41, 41, 59);
+    border-radius: 50px;
+}
+
+.logo-avatar p {
+    font-size: 30px;
+    font-weight: 600;
+    padding-right: 20px;
+    color: white;
+}
+.logo-avatar img{
+    width: 100px;
+    height: auto;
+}
+
+
+.nav-selection li{
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+    background-color: rgb(41, 41, 59);
+    border-radius: 50px;
+}
+
+.nav-selection a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+/* nav-bar */
+
+.container{
+    border-top: 3px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.hand{
+    font-size: 60px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
+
+.side{
+    flex: 50%;
+    display: flex;
+    margin-top:5% ;
+    margin-left: 10%;
+    margin-bottom: 15%;
+
+}
+.phrase{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    text-align: start;
+}
+
+.second-phrase{
+    font-size: 30px;
+    color: white;
+    text-align:start;
+}
+.underline{
+    border-bottom: solid purple;
+}
+
+.name{
+    color: yellow;
+}
+
+.main{
+    flex: 50%;
+    display: flex;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+
+}
+
+.bulbicon p{
+    font-size: 35px;
+    color: yellow;
+    position: relative;
+    padding: 15px   ;
+    background-color: rgb(43, 41, 61);
+    border-radius: 100px;
+
+
+    
+
+}
+
+
+.bannermsg{
+    font-size: 50px;
+    color: white;
+    background-color: rgb(66, 44, 89);
+    border-radius: 20px;
+    border-left: solid yellow;
+}
+
+
+.logo img{
+    width: 200px;
+    height: auto;
+    align-items: start;
+    transition: transform 2s;
+}
+
+.logo img:hover{
+    transform: rotate(360deg);
+}
+
+.bottom-part{
+    display: flex;
+}
+
+.message{
+    font-size: 30px;
+    color: white;
+    text-align: start;
+}
+
+.soclink a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;   
+    padding: 10px;
+    background-color: rgb(66, 44, 89);
+    border-radius: 20px;
+}
+
+.keylinks p,a{
+    color: white;
+    font-size: 23px;
+}
+
+.keylinks{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.keylinks a{
+    padding: 12px;
+    text-decoration: none;
+    border: solid purple;
+    margin: 10px;
+    border-radius: 100px;
+
+}
+
+@media screen and (max-width: 1228px){
+    .side, .main,.phrases, .bottom-part{
+        flex: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px){
+.nav-selection{
+    display: none;
+}
+
+}
+
+
+
